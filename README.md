@@ -100,5 +100,6 @@ AI-driven interview simulation module.
 📽️ Demo Video
 For a comprehensive overview, watch our demo video:
 
-https://youtu.be/oC-UleEl5vA
+[![Watch the demo](https://img.youtube.com/vi/oC-UleEl5vA/0.jpg)](https://youtu.be/oC-UleEl5vA)
+
 
