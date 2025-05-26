@@ -1,105 +1,86 @@
-Skill Sensei
-Empowering learners and job seekers with AI-driven personalized assessments and skill development.
-
-🧠 Overview
-Skill Sensei is an AI-powered platform designed to assist students and job seekers in identifying their weak areas through personalized assessments. By analyzing performance trends, it offers targeted resources and realistic practice environments, including interview simulations, to enhance learning outcomes and boost confidence.
-
-🚀 Features
-Personalized Assessments: Tailored quizzes to evaluate individual strengths and weaknesses.
-
-Topic-wise Performance Reports: Detailed analytics highlighting areas that need improvement.
-
-Interview Simulations: Realistic mock interviews to prepare users for real-world scenarios.
-
-Resource Recommendations: Curated materials based on user performance to aid in skill enhancement.
-
-Progress Tracking: Monitor improvement over time with comprehensive dashboards.
-
-🎯 Problem Statement
-Preparing for exams, interviews, or skill assessments is often time-consuming, unstructured, and lacks personalized feedback. Learners and job seekers typically:
-
-Struggle to Identify Weak Areas: Without clear insights, it's challenging to focus on areas that need improvement.
-
-Waste Time on Generic Resources: Generic study materials may not address specific individual needs.
-
-Lack Instant, Tailored Feedback: Immediate feedback is crucial for effective learning and confidence building.
-
-Face Interview Anxiety: Without realistic practice, interviews can be daunting and stressful.
-
-Skill Sensei addresses these challenges by providing a structured, personalized, and interactive platform for skill development.
-
-🛠️ Technologies Used
-Frontend: React, Tailwind CSS, Vite
-
-Backend: Node.js, Express, MongoDB
-
-Authentication: JWT, Cookie-based Auth
-
-AI & Machine Learning: TensorFlow.js, @google/generative-ai
-
-Payment Integration: Stripe
-
-Blockchain: Ethers.js, Hardhat
-
-Cloud Services: Cloudinary for media storage
-
-Others: Axios, React Router, Chart.js, ESLint
-
-🧪 Challenges Faced
-Accurate Weak Topic Identification: Initially, breaking down performance to pinpoint weak areas without oversimplification was challenging. We implemented topic tagging for each question and analyzed accuracy trends to generate detailed performance reports.
-
-Realistic Interview Simulations: Creating authentic interview experiences required integrating AI-driven question generation and response evaluation, which was complex but achieved through iterative testing.
-
-Seamless Integration of Diverse Technologies: Combining various tools and libraries posed compatibility issues, resolved through modular architecture and thorough testing.
-
-📦 Installation & Setup
-Clone the repository:
-
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/skill-sensei.git
-cd skill-sensei
-Install dependencies:
-
-bash
-Copy
-Edit
-npm install
-Set up environment variables:
-
-Create a .env file in the root directory and add the necessary environment variables:
-
-env
-Copy
-Edit
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
-CLOUDINARY_API_KEY=your_cloudinary_api_key
-CLOUDINARY_API_SECRET=your_cloudinary_api_secret
-STRIPE_SECRET_KEY=your_stripe_secret_key
-Run the application:
-
-bash
-Copy
-Edit
-npm run dev
-The application will be available at http://localhost:3000.
-
-📸 Screenshots
-
-User dashboard showcasing performance metrics.
-
-
-Personalized assessment interface.
-
-
-AI-driven interview simulation module.
-
-📽️ Demo Video
-For a comprehensive overview, watch our demo video:
+# ATLAS-AI 🚀 – Personalized Learning & Job Prep Assistant
 
 [![Watch the demo](https://img.youtube.com/vi/oC-UleEl5vA/0.jpg)](https://youtu.be/oC-UleEl5vA)
 
+> A hackathon project submitted to [Hackathon Name], ATLAS-AI is a smart, AI-driven platform that helps students and job seekers prepare for exams, interviews, and upskilling — with personalized feedback and realistic mock simulations.
 
+---
+
+## 🌟 Problem Statement
+
+Preparing for exams, interviews, or skill assessments is often time-consuming, unstructured, and lacks personalized feedback. Learners and job seekers typically:
+- Don’t know which topics they are weak in
+- Waste time on generic resources that don't match their skill gaps
+- Lack instant, tailored feedback
+- Struggle with interview anxiety and don’t get enough realistic practice
+- Don’t have a clear roadmap to reach their goals
+
+---
+
+## ✅ Our Solution
+
+We built **ATLAS-AI** – an all-in-one personalized learning assistant that:
+- Evaluates users based on MCQ and subjective answers
+- Analyzes topic-wise performance using AI
+- Identifies weak topics and recommends targeted resources
+- Simulates mock interviews with emotional analysis
+- Supports voice-based Q&A with transcription and response
+- Helps users discover jobs and apply easily
+
+---
+
+## 🔍 Key Features
+
+- 🎯 **Topic-wise performance report**
+- 🧠 **AI-generated questions & answers**
+- 📊 **Weak topic detection using label accuracy**
+- 💬 **Mock interview with facial expression & voice emotion detection**
+- 🎤 **Speech-to-text & Text-to-speech interface**
+- 💼 **Job discovery & recommendation**
+- 🧾 **Personalized feedback for every submission**
+- 💻 **Integrated ETH payment (via Ethers.js)**
+
+---
+
+## 🧪 How We Built It
+
+- FastAPI backend for question generation, scoring, and feedback
+- Whisper for speech-to-text transcription
+- DeepFace for emotion detection in video interviews
+- Groq LLM for answer analysis
+- React + Tailwind frontend
+- Ethers.js for ETH-based payments
+- Cloudinary for image/video uploads
+
+---
+
+## 🎓 Identifying Weak Topics Accurately
+
+We struggled to break down performance in a way that clearly identifies a user's weak areas without being overly simplistic.
+
+### ✅ Solution:
+We tagged each question with a topic label and analyzed accuracy trends across those tags to build a **topic-wise performance report**.
+
+---
+
+## 🛠 Tech Stack
+
+- **Frontend**: React, TailwindCSS, React Router
+- **Backend**: FastAPI, Python
+- **AI Models**: OpenAI/Groq, DeepFace, Whisper
+- **Blockchain**: Ethers.js
+- **Storage**: Cloudinary
+- **Deployment**: Vercel, Render
+
+---
+
+## 🧾 How to Run
+
+### 🔧 Development
+
+```bash
+# Install dependencies
+npm install
+
+# Run in dev mode
+npm run dev
